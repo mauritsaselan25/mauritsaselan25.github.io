@@ -163,27 +163,30 @@
 
     <!-- Contact -->
 
-    <section id="contact" class="contact">
-      <div class="container text-center mb-3">
-        <div class="row">
+    <section id="contact">
+      <div class="container">
+        <div class="row text-center mb-3">
           <div class="col">
-            <h2>Hubungi</h2>
+            <h2>Contact Me!</h2>
           </div>
         </div>
-      </div>
-      <div class="row justify-content-center">
-        <div class="col-md-6">
-          <div class="mb-3">
-            <label for="name" class="form-label">Nama</label>
-            <input type="text" class="form-control" id="name" placeholder="Maurits A. Selan" />
-          </div>
-          <div class="mb-3">
-            <label for="email" class="form-label">Email</label>
-            <input type="text" class="form-control" id="email" placeholder="mauritsaselan@gmail.com" />
-          </div>
-          <div class="mb-3">
-            <label for="pesan" class="form-label">Pesan</label>
-            <textarea class="form-control" id="pesan" rows="3"></textarea>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <form name="wellem-contact-form">
+              <div class="mb-3">
+                <label for="name" class="form-label">Nama Lengkap</label>
+                <input type="text" class="form-control" id="name" aria-describedby="name" name="nama" />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" aria-describedby="email" name="email" />
+              </div>
+              <div class="mb-3">
+                <label for="pesan" class="form-label">Pesan</label>
+                <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-kirim">Kirim!</button>
+            </form>
           </div>
         </div>
       </div>
